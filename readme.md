@@ -1,10 +1,6 @@
-# Foundation for Apps Template
+# Stats App
 
-[![devDependency Status](https://david-dm.org/zurb/foundation-apps-template/dev-status.svg)](https://david-dm.org/zurb/foundation-apps-template#info=devDependencies)
-
-This is the default template project for Foundation for Apps, powered by Gulp, Angular, and libsass. It provides you with a basic template to get started with Foundation for Apps and Angular.
-
-If you're already an Angular developer, you may instead want to install the components into your own stack using Bower: `bower install foundation-apps`
+This project is based on the default template project for Foundation for Apps, powered by Gulp, Angular, and libsass.
 
 ## Requirements
 
@@ -18,16 +14,16 @@ You'll need the following software installed to get started.
 
 ## Get Started
 
-Clone this repository, where `app` is the name of your app.
+Clone this repository, where `app-stats` is the name of your app.
 
 ```bash
-git clone https://github.com/zurb/foundation-apps-template.git app
+git clone https://github.com/matthijsbierman/app-stats.git app-stats
 ```
 
 Change into the directory.
 
 ```bash
-cd app
+cd app-stats
 ```
 
 Install the dependencies. If you're running Mac OS or Linux, you may need to run `sudo npm install` instead, depending on how your machine is configured.
@@ -43,7 +39,7 @@ While you're working on your project, run:
 npm start
 ```
 
-This will compile the Sass and assemble your Angular app. **Now go to `localhost:8080` in your browser to see it in action.** When you change any file in the `client` folder, the appropriate Gulp task will run to build new files.
+This will compile the Sass and assemble your Angular app. **Your browser should open automatically.** When you change any file in the `client` folder, the appropriate Gulp task will run to build new files.
 
 To run the compiling process once, without watching any files, use the `build` command.
 

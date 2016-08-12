@@ -45,7 +45,7 @@
       late: 6,
       lateConfirmed: 2,
       done: 24
-    };
+     };
   }]);
 
   angular.module('application').controller('VisualizationController', ['$scope', function($scope) {
@@ -71,3 +71,6 @@
   }]);
 
 })();
+
+
+
